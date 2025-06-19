@@ -1,39 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Mr. Sunshine</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="assets/images/logo.png" width="200" />
+            </div>
         </div>
-    </div>
+    </header>
 
-    <div class="bar"></div>
+    <div class="container">
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+        <div class="content">
+            <nav class="menu-lateral" aria-label="Navegação do site">
+                <h2>Título</h2>
+                <ul>
+                    <li><a href="#">Links</a></li>
+                </ul>
+            </nav>
 
-        <div class="main">
-            
-        </div>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
+            <main>
+                <figure>
+                    <img src="assets/images/mr-sunshine-banner.jpg" alt="Banner da série Mr. Sunshine" />
+                    <figcaption>Imagem promocional de Mr. Sunshine</figcaption>
+                </figure>
+
+                <!-- Sinopse/Introdução -->
+                <section id="sinopse" aria-labelledby="titulo-sinopse">
+                    <h1 id="titulo-sinopse">Mr. Sunshine</h1>
+                    <p><strong>Mr. Sunshine</strong> (<em>hangul</em>: 미스터 션샤인; <em>rr</em>: <em>Miseuteo
+                            Syeonsyain</em>) é
+                        uma
+                        <strong>telenovela sul-coreana</strong> exibida pela emissora <strong>tvN</strong> de 7 de julho
+                        a
+                        30 de
+                        setembro de 2018, com um total de <strong>24 episódios</strong>. A série também estreou
+                        internacionalmente pela plataforma <strong>Netflix</strong>.
+                    </p>
+                    <p><em>Miseuteo Syeonsyain</em> foi escrita por <strong>Kim Eun-sook</strong> e dirigida por
+                        <strong>Lee
+                            Eung-bok</strong>. O elenco principal conta com <strong>Lee Byung-hun</strong>, <strong>Kim
+                            Tae-ri</strong>, <strong>Yoo Yeon-seok</strong>, <strong>Kim Min-jung</strong> e
+                        <strong>Byun
+                            Yo-han</strong>.</p>
+                    <p>O enredo é ambientado em <strong>Hanseong</strong> (antigo nome da cidade de Seul), no início dos
+                        anos
+                        1900, e se concentra em ativistas que lutam pela independência da Coreia.</p>
+                    <p><em>Miseuteo Syeonsyain</em> registrou a <strong>quarta maior audiência</strong> da história da
+                        televisão
+                        a cabo sul-coreana, com uma média de <strong>12,955%</strong>. O episódio final atingiu um pico
+                        de
+                        <strong>18,129%</strong>. Na cidade de Seul, tornou-se a <strong>segunda maior
+                            audiência</strong> já
+                        registrada para uma emissora por assinatura.
+                    </p>
+                    <p>Além do sucesso de audiência, a série recebeu <strong>aclamação da crítica</strong> por sua
+                        cinematografia e narrativa envolvente, com destaque especial para as <strong>personagens
+                            femininas</strong>, consideradas fortes e inspiradoras.</p>
+                    <p><em>Miseuteo Syeonsyain</em> recebeu o prêmio de <strong>Drama do Ano</strong> no <strong>APAN
+                            Star
+                            Awards</strong>, além do <strong>Grande Prêmio</strong> concedido ao ator <strong>Lee
+                            Byung-hun</strong>.</p>
+                </section>
+
+                <!-- Nota extra -->
+                <aside aria-label="Nota importante">
+                    <h2>Nota</h2>
+                    <!-- Se desejar, use <blockquote> ou <p> para a nota -->
+                    <!-- Exemplo de imagem para a nota -->
+                    <img src="assets/images/nota.png" alt="Nota ilustrativa" />
+                </aside>
+
+                <!-- Enredo -->
+                <section id="enredo" aria-labelledby="titulo-enredo">
+                    <h2 id="titulo-enredo">Enredo</h2>
+                    <!-- Parágrafos sobre o enredo -->
+                </section>
+
+                <!-- Personagens com uso de tabela acessível -->
+                <section id="personagens" aria-labelledby="titulo-personagens">
+                    <h2 id="titulo-personagens">Personagens</h2>
+                    <table>
+                        <caption>Elenco principal e seus personagens</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Foto</th>
+                                <th scope="col">Personagem</th>
+                                <th scope="col">Ator/Atriz</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Repita esta linha para cada personagem -->
+                            <tr>
+                                <td>
+                                    <img src="assets/images/personagem1.jpg" alt="Nome do personagem" />
+                                </td>
+                                <td>Nome do personagem</td>
+                                <td>Nome do ator/atriz</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- Produção -->
+                <section id="producao" aria-labelledby="titulo-producao">
+                    <h2 id="titulo-producao">Produção</h2>
+                    <ul>
+                        <!-- Itens em lista sobre produção -->
+                        <li>Item da produção</li>
+                    </ul>
+                </section>
+
+                <!-- Onde assistir -->
+                <section id="onde-assistir" aria-labelledby="titulo-onde-assistir">
+                    <h2 id="titulo-onde-assistir">Onde assistir</h2>
+                    <ul>
+                        <!-- Exemplo de item da lista -->
+                        <li>
+                            <article>
+                                <img src="assets/images/streaming_logo.png" alt="Logo do serviço de streaming" />
+                                <h3>Título do serviço</h3>
+                                <p>Descrição do serviço</p>
+                                <a href="#" class="btn" role="button"
+                                    aria-label="Assistir Mr. Sunshine na Netflix">Assistir</a>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Vídeo -->
+                <section id="video-clip" aria-labelledby="titulo-video">
+                    <h2 id="titulo-video">Vídeo Clip</h2>
+                    <div class="video-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rPJSo4fhtRU"
+                            title="Mr. Sunshine | Official Trailer [HD] | Netflix" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <!-- Trilha Sonora -->
+                <section id="trilha-sonora" aria-labelledby="titulo-trilha-sonora">
+                    <h2 id="titulo-trilha-sonora">Trilha Sonora</h2>
+                    <a href="https://www.youtube.com/watch?v=MvXksn0WSo4&list=PLWMH8xaISr6pjG4HcN15tmlnA-0XOiv0c"
+                        target="_blank" rel="noopener">
+                        Ouça a trilha sonora no YouTube
+                    </a>
+                </section>
+            </main>
+
+
+            <aside class="ancoras-laterais" aria-label="Neste Artigo">
+                <h2>Neste Artigo</h2>
+                <ul>
+                    <li><a href="#sinopse">Sinopse</a></li>
+                    <li><a href="#enredo">Enredo</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#producao">Produção</a></li>
+                    <li><a href="#onde-assistir">Onde assistir</a></li>
+                    <li><a href="#trailer">Trailer</a></li>
+                    <li><a href="#trilha-sonora">Trilha Sonora</a></li>
+                </ul>
+            </aside>
         </div>
     </div>
 
@@ -41,4 +180,5 @@
 
     </div>
 </body>
+
 </html>
